@@ -1,5 +1,9 @@
+// Package mymath provides mathematical functions and constants.
 package mymath
 
+// IsPrime checks if a number is prime.
+// A prime number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers.
+// The function uses an efficient algorithm to determine if a number is prime.
 // 1.- Early exits:
 //   - Numbers less than 2 are not prime.
 //   - 2 and 3 are prime numbers.
