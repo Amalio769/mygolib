@@ -11,7 +11,7 @@ package mymath
 //
 // 3.- Time complexity:
 //   - The algorithm runs in ( O(\sqrt{n}) ), which is efficient for large numbers.
-func isPrime(n int64) bool {
+func IsPrime(n int64) bool {
 	if n < 2 {
 		return false
 	}

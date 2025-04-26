@@ -10,7 +10,7 @@ func TestOKisPrime(t *testing.T) {
 	}
 
 	for _, num := range list {
-		if !isPrime(num) {
+		if !IsPrime(num) {
 			t.Errorf("expected %d to be prime", num)
 		}
 	}
@@ -23,7 +23,7 @@ func TestNOKisPrime(t *testing.T) {
 	}
 
 	for _, num := range list {
-		if isPrime(num) {
+		if IsPrime(num) {
 			t.Errorf("expected %d to be not prime", num)
 		}
 	}
